@@ -18,8 +18,12 @@
        letter-spacing: -.5px;
        padding: 0 25px;
    }
-
-
+      
+     .navbar .navbar-nav li a:hover,
+     .navbar .navbar-nav li a:focus,
+     .navbar .navbar-nav li a:active {
+          color: #666;
+      }
 /* LAYOUT */
 
 section {
