@@ -40,6 +40,14 @@ section {
   background-color: #138496;
   padding: 0;
 }
-      .jumbotron {
-          margin: 0;
-       }
+   .jumbotron {
+       background-image: url("../img/webDevelopmentWeb.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-attachment: fixed;
+       background-position: center;
+       background-color: #138496;
+       z-index: 10;
+       margin: 0;
+       height: 100hv;
+   }
