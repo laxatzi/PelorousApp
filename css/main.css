@@ -3,7 +3,6 @@
       background-color: #E9ECEF;
    }
 
-
 /* LAYOUT*/
 section {
     padding: 30px 0;
@@ -22,14 +21,14 @@ section {
 .navbar {
     width: 90%;
     margin: auto;
-    border: 1px solid #e7e7e7;
+    border: 1px solid #00aff0;
     min-height: 60px;
     margin-bottom: 30px;
-    background: #fff;
+    background: #00aff0;
 }
 
    .navbar a {
-       color: #00aff0;
+       color: #fff;
        font-size: 20px;
        letter-spacing: -.5px;
        padding: 0 25px;
