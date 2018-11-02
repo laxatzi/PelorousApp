@@ -47,7 +47,6 @@ section {
        background-attachment: fixed;
        background-position: center;
        background-color: #138496;
-       z-index: 10;
        margin: 0;
        height: 100hv;
    }
