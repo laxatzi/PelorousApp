@@ -12,12 +12,14 @@
     background: #fff;
 }
 
-.navbar a {
-    color: #00aff0;
-    font-size: 20px;
-    letter-spacing: -.5px;
-    padding: 0 25px;
-}
+   .navbar a {
+       color: #00aff0;
+       font-size: 20px;
+       letter-spacing: -.5px;
+       padding: 0 25px;
+   }
+
+
 /* LAYOUT */
 
 section {
