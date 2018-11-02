@@ -14,7 +14,7 @@ section {
     background-color: #D9D9D9;
 }
 .block {
-    padding: 10px 20px;
+    padding: .65rem 1.2rem;
     border: 1px solid #DFDFDF;
 }
 /* NAVBAR */
@@ -23,15 +23,15 @@ section {
     margin: auto;
     border: 1px solid #00aff0;
     min-height: 60px;
-    margin-bottom: 30px;
+    margin-bottom: 1.85rem;
     background: #00aff0;
 }
 
    .navbar a {
        color: #fff;
-       font-size: 20px;
+       font-size: 1.15rem;
        letter-spacing: -.5px;
-       padding: 0 25px;
+       padding: 0 1.45rem;
    }
 
      .navbar .navbar-nav li a:hover,
@@ -84,4 +84,7 @@ section {
      color: #000;
    }
   
-
+/* section-search */
+  .section-search {
+     background-color: #E9ECEF;
+   }
