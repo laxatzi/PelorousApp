@@ -3,12 +3,21 @@
       background-color: #E9ECEF;
    }
 
+
 /* LAYOUT*/
 section {
     padding: 30px 0;
     margin: 0;
 }
 
+/* MODULES */
+.block-distinct {
+    background-color: #D9D9D9;
+}
+.block {
+    padding: 10px 20px;
+    border: 1px solid #DFDFDF;
+}
 /* NAVBAR */
 .navbar {
     width: 90%;
@@ -38,7 +47,6 @@ section {
     }
 
 /* Jumbotron */
-
 section {
     padding: 30px 0;
     margin: 0;
@@ -78,3 +86,4 @@ section {
    .section-jumbo p {
       color: #000;
     }
+
