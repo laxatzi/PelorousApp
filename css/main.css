@@ -80,10 +80,9 @@ section {
        background: rgba(255, 255, 255, 0.4);
      }
 
-   .section-jumbo h1 {
-     color: #00aff0;
-   }
+   .section-jumbo h1, 
    .section-jumbo p {
-      color: #000;
-    }
+     color: #000;
+   }
+  
 
