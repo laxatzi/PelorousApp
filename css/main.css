@@ -27,13 +27,18 @@ section {
     background: #00aff0;
 }
 
-   .navbar a {
+   .navbar .navbar-nav a {
        color: #fff;
-       font-size: 1.15rem;
+       font-size: 1.05rem;
        letter-spacing: -.5px;
        padding: 0 1.45rem;
    }
-
+   .navbar a.navbar-brand {
+       color: #fff;
+       font-size: 1.75rem;
+       letter-spacing: -1px;
+       padding: 0 1.5rem;
+   }
      .navbar .navbar-nav li a:hover,
      .navbar .navbar-nav li a:focus,
      .navbar .navbar-nav li a:active {
