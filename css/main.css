@@ -29,3 +29,39 @@
 .navbar a.navbar-brand:focus{
     color: #99DFF9;
 }
+/* Jumbo */
+
+.section-jumbo {
+  padding: 0;
+  background-color: #E4EEF2;
+
+}
+.jumbotron {
+    background-image: url("../img/webDevelopmentWeb.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    height: 100hv;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+.jumbotron::after {
+    position:absolute;
+    z-index:-1;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    content: "";
+    background: rgba(27, 27, 27, 0.8);
+  }
+
+.section-jumbo h1{
+    color:#00AFF0;
+}
+.section-jumbo p{
+    color:#fff;
+}
