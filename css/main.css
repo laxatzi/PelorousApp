@@ -74,3 +74,14 @@
        background-color: #00aff0;
        color: #fff;
     }
+
+/* MODULES */
+
+.block-distinct {
+    background-color: #D9D9D9;
+}
+.block {
+    padding: .85rem;
+    border: 1px solid #DFDFDF;
+    margin-bottom: 0.85rem;
+}
