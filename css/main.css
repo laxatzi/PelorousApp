@@ -1,37 +1,17 @@
-/* BASIC */
-   .section-search {
-      background-color: #E9ECEF;
-   }
-
-/* LAYOUT*/
-section {
-    padding: 30px 0;
-    margin: 0;
-}
-
-/* MODULES */
-.block-distinct {
-    background-color: #D9D9D9;
-}
-.block {
-    padding: .65rem 1.2rem;
-    border: 1px solid #DFDFDF;
-}
 /* NAVBAR */
 .navbar {
     width: 90%;
     margin: auto;
     border: 1px solid #00aff0;
     min-height: 60px;
-    margin-bottom: 1.85rem;
+    margin-bottom: 2rem;
     background: #00aff0;
 }
-
-   .navbar .navbar-nav a {
+   .navbar .navbar-nav a  {
        color: #fff;
        font-size: 1.05rem;
        letter-spacing: -.5px;
-       padding: 0 1.45rem;
+       padding: 0 1.5rem;
    }
    .navbar a.navbar-brand {
        color: #fff;
@@ -39,61 +19,71 @@ section {
        letter-spacing: -1px;
        padding: 0 1.5rem;
    }
-     .navbar .navbar-nav li a:hover,
-     .navbar .navbar-nav li a:focus,
-     .navbar .navbar-nav li a:active {
-          color: #666;
-      }
+   .navbar .navbar-nav li a:hover,
+   .navbar .navbar-nav li a:focus,
+   .navbar .navbar-nav li a:active {
+       color: #99DFF9;
+   }
 
-    .navbar a.navbar-brand:hover,
-    .navbar a.navbar-brand:focus{
-        color: #666;
+.navbar a.navbar-brand:hover,
+.navbar a.navbar-brand:focus{
+    color: #99DFF9;
+}
+
+/* Jumbo */
+
+.section-jumbo {
+  padding: 0;
+  background-color: #E4EEF2;
+
+}
+.jumbotron {
+    background-image: url("../img/webDevelopmentWeb.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    height: 100hv;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+.jumbotron::after {
+    position:absolute;
+    z-index:-1;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    content: "";
+    background: rgba(27, 27, 27, 0.8);
+  }
+
+.section-jumbo h1{
+    color:#00AFF0;
+}
+.section-jumbo p{
+    color:#fff;
+}
+
+/* search */ 
+
+.section-search {
+    background-color: #E9ECEF;
+}
+   .btn-prime-color  { 
+       background-color: #00aff0;
+       color: #fff;
     }
 
-/* Jumbotron */
-section {
-    padding: 30px 0;
-    margin: 0;
-}
- 
-.section-jumbo {
-  background-color: #138496;
-  padding: 0;
-}
-   .jumbotron {
-       background-image: url("../img/webDevelopmentWeb.jpg");
-       background-repeat: no-repeat;
-       background-size: cover;
-       background-attachment: fixed;
-       background-position: center;
-       margin: 0;
-       height: 100hv;
-       width: 100%;
-       position: relative;
-       z-index: 1;
-   }
+/* MODULES */
 
-   .jumbotron::after {
-       position:absolute;
-       z-index:-1;
-       height: 100%;
-       width: 100%;
-       top: 0;
-       left: 0;
-       content: "";
-       background: rgba(255, 255, 255, 0.5);
-     }
-
-   .section-jumbo h1, 
-   .section-jumbo p {
-     color: #000;
-   }
-  
-/* section-search */
-  .section-search {
-     background-color: #E9ECEF;
-   }
-         .btn-prime-color  { 
-             background-color: #00aff0;
-             color: #fff;
-          }
+.block-distinct {
+    background-color: #D9D9D9;
+}
+.block {
+    padding: .85rem;
+    border: 1px solid #DFDFDF;
+    margin-bottom: 0.85rem;
+}
