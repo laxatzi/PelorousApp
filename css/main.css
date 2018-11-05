@@ -98,12 +98,14 @@
     background-color: #E9ECEF;
     text-align: center;
 }
+.padding-extended {
+    padding: 7rem 0;
+}
 
 .btn-contrast {
     background-color: #F04100;
     color: #fff;
 }
-
 
 .list li {
     line-height: 2em;
