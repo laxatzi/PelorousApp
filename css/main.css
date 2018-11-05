@@ -98,3 +98,9 @@
     background-color: #E9ECEF;
     text-align: center;
 }
+
+
+
+.list li {
+    line-height: 2em;
+}
