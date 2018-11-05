@@ -63,7 +63,6 @@
     color:#fff;
 }
 
-
 /* search */ 
 
 .section-search {
@@ -73,13 +72,29 @@
        background-color: #00aff0;
        color: #fff;
     }
+
+/* MODULES */
+
 /* MODULES */
 
 .block-distinct {
-    background-color: #D9D9D9;
+    background-color: #2B5464;
+    color: #fff;
+}
+.block-primary {
+    background-color: #00aff0;
+    color: #fff;
 }
 .block {
     padding: .85rem;
     border: 1px solid #DFDFDF;
     margin-bottom: 0.85rem;
+}
+
+.features-block i {
+    font-size: 80%;
+}
+.services-block  {
+    background-color: #E9ECEF;
+    text-align: center;
 }
