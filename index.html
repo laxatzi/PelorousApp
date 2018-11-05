@@ -11,8 +11,8 @@
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-sm container-fluid bg-info navbar-dark">
-        <a class="navbar-brand" href="#">PelorousApp</a>
+    <nav class="navbar navbar-default navbar-expand-sm container-fluid ">
+        <a class="navbar-brand" href="index.html">PelorousApp</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsible">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -22,9 +22,6 @@
         <div class="navbar-collapse collapse" id="collapsible">
         <!-- Left menu list -->
             <ul class="navbar-nav mr-auto">   <!--add mr-auto to push the second ul to the right -->
-                <li class="nav-item">
-                    <a href="index.html" class="nav-link">Home</a>
-                </li>
                 <li class="nav-item">
                     <a href="about.htm" class="nav-link">About</a>
                 </li>
@@ -50,7 +47,7 @@
         </div> 
      </nav><!-- End of Navbar -->
 <!-- Jumbotron div -->
-    <section class="section-jumbotron">
+    <section class="section-jumbotron pt-5">
         <div class="jumbotron text-center">
             <h1>Bootstrap HTML5 Template</h1>
             <p class="lead">A clean and versatile <strong>Bootstrap 4</strong> theme.<br> A responsive design for your business and products</p>
@@ -64,18 +61,152 @@
     <section class="section-search">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <div class="input-group">
                         <input type="text" class="form-control" placeholder="Search our website and products">
                         <div class="input-group-append">
-                           <button class="btn btn-info" type="submit"><i class="fas fa-search"></i></button>
+                           <a class="btn btn-prime-color" type="submit"><i class="fas fa-search"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6"></div>
+                <div class="col-md-8"></div>
             </div>
         </div>
     </section> 
+    <!-- features section -->
+    <section class="section-features">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="features-block features-block-primary">
+                        <h3><i class="fa fa-check"></i>Sleek</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra varius maximus. Cras condimentum porttitor enim a egestas. Suspendisse potenti</p>
+                        <button href="#" class="btn btn-default">Read More...</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="features-block features-block-secondary">
+                        <h3><i class="fa fa-check"></i>Responsive</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra varius maximus. Cras condimentum porttitor enim a egestas. Suspendisse potenti</p>
+                        <button href="#" class="btn btn-default">Read More...</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="features-block features-block-primary">
+                        <h3><i class="fa fa-check"></i>Clean</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra varius maximus. Cras condimentum porttitor enim a egestas. Suspendisse potenti</p>
+                        <button href="#" class="btn btn-default">Read More...</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services section -->
+    <section class="section-services">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="block services-block">
+                        <i class="fab fa-html5 fa-primary"></i>                       
+                        <h3>Lorem Ipsum</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra varius maximus. Cras condimentum porttitor enim a egestas. Suspendisse potenti</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="block services-block">
+                        <i class="fas fa-chart-pie fa-primary"></i>                       
+                        <h3>Aenean pharetra</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra varius maximus. Cras condimentum porttitor enim a egestas. Suspendisse potenti</p>
+                    </div>
+                </div>  
+                <div class="col-md-3">
+                    <div class="block services-block">
+                        <i class="fas fa-unlock-alt fa-primary"></i>                       
+                        <h3>Cras condimentum</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra varius maximus. Cras condimentum porttitor enim a egestas. Suspendisse potenti</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="block services-block">
+                        <i class="fab fa-question-circle fa-primary"></i>                       
+                        <h3>Suspendisse potenti</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra varius maximus. Cras condimentum porttitor enim a egestas. Suspendisse potenti</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ <!-- responsiveness section -->
+   <section class="section-responsive">
+       <div class="container">
+          <div class="row">
+             <div class="col-md-6">
+                <h2>Use PelorusApp in ALL devices</h2>
+                <ul class="list list-feature">
+                    <li><i class="fa fa-check"></i><span></span>Lorem Ipsum</li>
+                    <li><i class="fa fa-check"></i><span></span>Aenean Pharetra</li>
+                    <li><i class="fa fa-check"></i><span></span>Cras condimentum</li>
+                    <li><i class="fa fa-check"></i><span>Suspendisse potenti</span></li>
+                </ul>
+                <button href="#" class="btn bnt-primary btn-lg">Read More...</button>
+             </div>
+             <div class="col-md-6">
+                 <img src="" alt=""> <!-- put image here -->
+              </div>
+          </div>
+       </div>
+   </section>
+   <!-- call to action section -->
+   <section class="section-cta">
+      <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+               <img src="" alt=""> <!-- put image here -->
+            </div>
+            <div class="col-md-6">
+               <h3>Try PelorusApp for 30 days FREE!</h3>
+               <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra varius maximus. Cras condimentum porttitor enim a egestas</p>
+               <button href="#" type="button" class="btn btn-lg btn-default btn-rounded">Start Trial</button>
+            </div>
+        </div>
+      </div>
+   </section> 
+<!-- footer -->
+   <footer class="footer-main">
+      <div class="container">
+        <div class="row">
+            <div class="col-md-4">  
+                <h4>Get the PelorusApp</h4>
+                   <ul>
+                      <li><a href="#">App Store</a></li>
+                      <li><a href="#">Google Play Store</a></li>
+                      <li><a href="#">Android Market</a></li>
+                      <li><a href="#">Windows</a></li>
+                      <li><a href="#">Google Store Chrome</a></li>
+                    </ul>
+            </div>
+            <div class="col-md-4">  
+                <h4>About</h4>
+                <ul>
+                   <li><a href="#">What is PelorusApp?</a></li>
+                   <li><a href="#">View Our Products</a></li>
+                   <li><a href="#">Advertise With Us</a></li>
+                   <li><a href="#">Careers</a></li>
+                   <li><a href="#">Web Development</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">  
+                <h4>Support</h4>
+                <ul>
+                   <li><a href="#">Community</a></li>
+                   <li><a href="#">Knowledge Base</a></li>
+                   <li><a href="#">Ticket Desk</a></li>
+                   <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+      </div>
+   </footer>
 <!-- Style -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
