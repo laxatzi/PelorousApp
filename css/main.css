@@ -125,3 +125,14 @@
 .fa-check {
     margin-right: 10px;
 }
+
+/*MEDIA QUERIES */
+
+@media screen and (max-width: 776px){
+    .img-remove {
+        display: none;
+    }
+    .footer-col h4 {
+        text-align: center; 
+     }
+}
