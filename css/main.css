@@ -109,4 +109,30 @@
 
 .list li {
     line-height: 2em;
+    border-bottom: 1px dotted #ccc;
+}
+.list li:last-child {
+    border-bottom: 0;
+}
+.fa-primary {
+    border: 1px solid #00aff0;
+    font-size: 2rem;
+    color: #00aff0;
+    padding: .65rem .85rem;
+    border-radius: 5px; 
+    margin-bottom: .65rem;
+}
+.fa-check {
+    margin-right: 10px;
+}
+
+/*MEDIA QUERIES */
+
+@media screen and (max-width: 776px){
+    .img-remove {
+        display: none;
+    }
+    .footer-col h4 {
+        text-align: center; 
+     }
 }
