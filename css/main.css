@@ -147,3 +147,14 @@
         padding: 0 1rem;
     }
 }
+
+@media screen and (min-width: 695px) {
+    .navbar .navbar-nav a  {
+        font-size: 1.15rem;
+        padding: 0 1.25 rem;
+    }
+    .navbar a.navbar-brand {
+        font-size: 1.75rem;
+        padding: 0 1.5rem;
+    }
+}
