@@ -62,11 +62,15 @@
   }
 
 .section-jumbo h1{
-    color: #F04100;
+    color: #99DFF9;
 }
 .section-jumbo p{
     color:#fff;
 }
+.navbar-toggler-icon {
+    color: #fff;
+}
+
 
 /* search */ 
 
