@@ -109,4 +109,8 @@
 
 .list li {
     line-height: 2em;
+    border-bottom: 1px dotted #ccc;
+}
+.list li:last-child {
+    border-bottom: 0;
 }
