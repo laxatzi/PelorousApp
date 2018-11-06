@@ -137,11 +137,13 @@
 
 /*MEDIA QUERIES */
 
-@media screen and (max-width: 776px){
-    .img-remove {
-        display: none;
+@media screen and (min-width: 556px){
+    .navbar .navbar-nav a {
+        font-size: 1rem;
+        padding: 0 1rem;
     }
-    .footer-col h4 {
-        text-align: center; 
-     }
+    .navbar a.navbar-brand {
+        font-size: 1.25rem;
+        padding: 0 1rem;
+    }
 }
