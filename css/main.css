@@ -71,7 +71,6 @@
     color: #fff;
 }
 
-
 /* search */ 
 
 .section-search {
@@ -115,11 +114,14 @@
 }
 
 .list li {
-    line-height: 2em;
+    line-height: 1rem;
     border-bottom: 1px dotted #ccc;
 }
 .list li:last-child {
     border-bottom: 0;
+}
+.list span {
+    font-size: 1rem;  /* new */
 }
 .img-removed { display: none; }
 
