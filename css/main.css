@@ -121,6 +121,8 @@
 .list li:last-child {
     border-bottom: 0;
 }
+.img-removed { display: none; }
+
 .fa-primary {
     font-size: 1.35rem;
     color: #00aff0;
