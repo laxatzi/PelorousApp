@@ -7,18 +7,21 @@
     <title>PelorousApp Project</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+ <!-- header area -->
     <header>
     <!-- Navbar -->
     <nav class="navbar  navbar-expand-sm fixed-top ">
         <a class="navbar-brand" href="index.html">PelorousApp</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsible">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"><i class="fas fa-bars"></span>
         </button>
          <!-- collapsible menu -->
-        <div class="navbar-collapse collapse" id="collapsible">
+        <div class="navbar-collapse collapse" id="collapsibleNavbar">
         <!-- Left menu list -->
             <ul class="navbar-nav mr-auto">   <!--add mr-auto to push the second ul to the right -->
                 <li class="nav-item">
@@ -37,23 +40,23 @@
        <!-- Navbar Right -->
             <ul class="navbar-nav">
                 <li class="nav-item">
-                   <a href="register.html" class="nav-link">Register</a>
+                   <a href="login.html" class="nav-link">Register</a>
                 </li>
                 <li class="nav-item">
-                   <a href="login.html" class="nav-link">Login</a>
+                   <a href="signin.html" class="nav-link">Login</a>
                 </li>
             </ul
         </div> 
      </nav><!-- End of Navbar -->
-     </header>
+    </header><!-- End of header -->
 <!-- Jumbotron div -->
-    <section class="section-jumbotron pt-5">
+    <section class="section-jumbo pt-5">
         <div class="jumbotron text-center padding-extended">
             <h1>Bootstrap HTML5 Template</h1>
             <p class="lead">A clean and versatile <strong>Bootstrap 4</strong> theme.<br> A responsive design for your business and products</p>
             <div class="download-buttons">
-                <a href="#" ><img src="img/btn-appstore.png" alt="appstore button"></a>
-                <a href="#" ><img src="img/btn-download.png" alt="download button"></a>
+                <a href="#" ><img class="img-fluid" src="img/btn-appstore.png" alt="appstore button"></a>
+                <a href="#" ><img class="img-fluid" src="img/btn-download.png" alt="download button"></a>
             </div>
         </div>
     </section>
@@ -65,7 +68,7 @@
                     <div class="input-group">
                         <input type="text" class="form-control" placeholder="Search our website and products">
                         <div class="input-group-append">
-                           <a class="btn btn-prime-color" type="submit"><i class="fas fa-search"></i></a>
+                           <button class="btn btn-prime-color" type="submit"><i class="fas fa-search"></i></button>
                         </div>
                     </div>
                 </div>
@@ -81,7 +84,7 @@
                     <div class="features-block block block-primary">
                         <h3><i class="fa fa-check"></i>Sleek</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra varius maximus. Cras condimentum porttitor enim a egestas. Suspendisse potenti</p>
-                        <button  class="btn btn-default">Read More...</button>
+                        <button  class="btn btn-contrast">Read More...</button>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -95,7 +98,7 @@
                     <div class="features-block block block-primary">
                         <h3><i class="fa fa-check"></i>Clean</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra varius maximus. Cras condimentum porttitor enim a egestas. Suspendisse potenti</p>
-                        <button  class="btn btn-default">Read More...</button>
+                        <button  class="btn btn-contrast">Read More...</button>
                     </div>
                 </div>
             </div>
@@ -107,28 +110,36 @@
             <div class="row">
                 <div class="col-lg-3">
                     <div class="block services-block">
-                        <i class="fab fa-html5 fa-primary"></i>                       
+                        <div class="block-icon text-center">
+                           <i class="fab fa-html5 fa-primary fa-primary-border"></i>
+                        </div>
                         <h4>Lorem Ipsum</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra varius maximus. Cras condimentum porttitor enim a egestas. Suspendisse potenti</p>
                     </div>
                 </div>
                 <div class="col-lg-3">
                     <div class="block services-block">
-                        <i class="fas fa-chart-pie fa-primary"></i>                       
+                        <div class="block-icon text-center">
+                           <i class="fas fa-chart-pie fa-primary fa-primary-border"></i>                       
+                        </div>
                         <h4>Aenean pharetra</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra varius maximus. Cras condimentum porttitor enim a egestas. Suspendisse potenti</p>
                     </div>
                 </div>  
                 <div class="col-lg-3">
                     <div class="block services-block">
-                        <i class="fas fa-unlock-alt fa-primary"></i>                       
+                        <div class="block-icon text-center">
+                           <i class="fas fa-unlock-alt fa-primary fa-primary-border"></i>                       
+                        </div>
                         <h4>Cras condimentum</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra varius maximus. Cras condimentum porttitor enim a egestas. Suspendisse potenti</p>
                     </div>
                 </div>
                 <div class="col-lg-3">
                     <div class="block services-block">
-                        <i class="fab fa-question-circle fa-primary"></i>                       
+                        <div class="block-icon text-center">
+                           <i class="fab fa-question-circle fa-primary fa-primary-border"></i>
+                        </div>
                         <h4>Suspendisse potenti</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra varius maximus. Cras condimentum porttitor enim a egestas. Suspendisse potenti</p>
                     </div>
@@ -139,19 +150,19 @@
  <!-- responsiveness section -->
    <section class="section-responsive">
        <div class="container">
-          <div class="row pt-5 pb-5">
-             <div class="col-md-6">
+          <div class="row pt-2 pb-5">
+             <div class="col-lg-6">
                 <h2>Use PelorusApp in ALL devices</h2>
                 <ul class="list list-feature">
-                    <li><i class="fa fa-check"></i><span class="ml-2">Lorem Ipsum</span></li>
-                    <li><i class="fa fa-check"></i><span class="ml-2">Aenean Pharetra</span></li>
-                    <li><i class="fa fa-check"></i><span class="ml-2">Cras condimentum</span></li>
-                    <li><i class="fa fa-check"></i><span class="ml-2">Suspendisse potenti</span></li>
+                    <li><i class="fa fa-check"></i><span class="ml-2">Lorem Ipsum porttitor enim</span></li>
+                    <li><i class="fa fa-check"></i><span class="ml-2">Aenean Pharetra porttitor enim</span></li>
+                    <li><i class="fa fa-check"></i><span class="ml-2">Cras condimentum porttitor enim</span></li>
+                    <li><i class="fa fa-check"></i><span class="ml-2">Suspendisse potenti porttitor enim</span></li>
                 </ul>
                 <button  class="btn btn-contrast btn-lg">Read More...</button>
              </div>
-             <div class="col-md-6">
-                <img class="img-fluid img-removed mb-5" src="img/responsiveDevicesSmall.jpg" alt="image of a tablet"> 
+             <div class="col-lg-6 padding-top">
+                <img class="img-fluid img-removed" src="img/responsiveDevicesSmall.jpg" alt="image of a tablet"> 
             </div>
        </div>
    </section>
@@ -160,7 +171,7 @@
       <div class="container">
         <div class="row">
             <div class="col-md-6">
-               <img class="img-fluid img-removed mt-5" src="img/womanOnLaptopWeb.jpg" alt="woman using a laptop">
+               <img class="img-fluid img-removed mb-5" src="img/app-iPhone-black-small.png" alt="image of an iphone">
             </div>
             <div class="col-md-6">
                <h3>Try PelorusApp for 30 days FREE!</h3>
@@ -206,7 +217,7 @@
         </div>
       </div>
    </footer>
-<!-- Style -->
+<!-- scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
