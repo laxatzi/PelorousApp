@@ -7,8 +7,11 @@
     <title>PelorousApp | services</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
+<body>
   <!-- header area -->
    <header>
       <nav class="navbar navbar-expand-sm  container-fluid fixed-top">
@@ -34,48 +37,33 @@
         <!-- Navbar right -->
             <ul class="navbar-nav"> 
                <li class="nav-item">
-                  <a class="nav-link" href="#">Register</a>
+                  <a class="nav-link" href="login.html">Register</a>
                </li>
                <li class="nav-item">
-                  <a class="nav-link" href="#">Login</a>
+                  <a class="nav-link" href="signin.html">Login</a>
                </li>
             </ul>
          </div>    
       </nav> 
    </header>  <!-- End of header -->
- <!-- search section -->
-   <section class="section-search">
-      <div class="container">
-         <div class="row mt-5">
-            <div class="col-md-4">
-              <div class="input-group">
-                  <input type="text" class="form-control" placeholder="Search our website and products">
-                  <div class="input-group-append">
-                     <button class="btn btn-prime-color" type="submit"><i class="fas fa-search"></i></button>
-                  </div>
-              </div>
-           </div>
-          <div class="col-md-8"></div>
-        </div>
-      </div>
-   </section>
+
 <!-- tagline section -->
-   <section class="section-tagline">
+   <section class="section-tagline padding-extended-half">
       <div class="container">
-        <div class="row">
-           <div class="col-md-12">
+        <div class="row pt-3">
+           <div class="col-md-12 quotations">
               <h2>Building technology to shape our future!</h2>
            </div>
         </div>
       </div>
    </section>
-  <!-- main -->
-   <section class="section-service--main">
+<!-- section about main -->
+<section class="section-service--main">
       <div class="container">
          <div class="row">
             <div class="col-md-8">
-               <h2>Services</h2>
-               <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc turpis eros, volutpat eget ipsum id, congue aliquet mauris. Morbi scelerisque iaculis nisl nec efficitur. Nam a ex eu dolor vehicula ultricies eu sagittis velit. Maecenas volutpat sit amet arcu et iaculis. Sed fringilla eu elit ac euismod. Proin eget auctor erat. Integer egestas nec metus lacinia dignissim. Maecenas dictum pretium tortor id suscipit. </p>
+               <h3 class="heading-primary">Services</h3>
+	       <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc turpis eros, volutpat eget ipsum id, congue aliquet mauris. Morbi scelerisque iaculis nisl nec efficitur. Nam a ex eu dolor vehicula ultricies eu sagittis velit. Maecenas volutpat sit amet arcu et iaculis. Sed fringilla eu elit ac euismod. Proin eget auctor erat. Integer egestas nec metus lacinia dignissim. Maecenas dictum pretium tortor id suscipit. </p>
                <p> Sed mattis, diam eu malesuada consectetur, nisl mauris facilisis sem, et sagittis ex massa et odio. Morbi quis dapibus sem. Sed eget placerat libero. Curabitur fermentum commodo augue, vitae placerat ligula vulputate ut. Praesent in eros mi. Ut sapien tortor, interdum non quam ac, pulvinar hendrerit ipsum. Morbi risus justo, faucibus quis nulla et, hendrerit porttitor orci. Fusce neque nibh, rhoncus sit amet sodales ac, porta et augue. Fusce quis gravida nisi, et convallis arcu. Cras sodales nec nisi sit amet tempus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
                <div class="accordion" id="accordionExample">
                   <div class="card">
@@ -122,21 +110,29 @@
                     </div>
                 </div>
              </div>
-             <div class="col-md-4">
+             <div class="col-md-4 pt-5">
                 <div class="container-fluid" >
                     <ul class="nav nav-tabs">
                         <li class="nav-item">
-                          <a class="nav-link active" href="#">Active</a>
+                          <a class="nav-link active" data-toggle="tab" href="#home">Home>Active</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">Link</a>
+                          <a class="nav-link" data-toggle="tab" href="#menu1">Menu 1</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">Link</a>
+                          <a class="nav-link" data-toggle="tab" href="#menu2">Menu 2</a>
                         </li>
                    </ul>
+  <!-- Tab panes -->
+                      <div class="tab-content">
+                          <div class="tab-pane container active" id="home">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                          <div class="tab-pane container fade" id="menu1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                          <div class="tab-pane container fade" id="menu2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                      </div>
+                    </div>
                 </div>
-                <form action="/action_page.php">
+                <form action="/action_page.php" class="pt-5">
+	           <h3 class="heading-primary">Get in touch with us!</h3>
                    <div class="form-group">
                       <label for="usr">Name:</label>
                       <input type="text" class="form-control" id="usr" name="username">
@@ -153,7 +149,7 @@
                       <label for="comment">Comment:</label>
                       <textarea class="form-control" rows="5" id="comment"></textarea>
                     </div> 
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-contrast">Submit</button>
                  </form>
               </div>
           </div>
@@ -162,34 +158,34 @@
 <!-- whatWeDo section -->
    <section class="section-whatWeDo">
       <div class="container">
-         <h2>What we do</h2>
-            <div class="row">
+         <h3 class="heading-primary">What we do</h3>
+	   <div class="row">
                <div class="col-md-4">
                   <div class="block services-block">
-                     <div class="icon">
-                        <i class="fab fa-html5 fa-primary"></i>      
+                     <div class="text-center block-icon">
+                        <i class="fab fa-html5 fa-primary fa-primary-border"></i>      
                      </div> 
                      <div class="icon-content">                
-                        <h3>Lorem Ipsum</h3>
+                        <h4>Lorem Ipsum</h4>
                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra varius maximus. Cras condimentum porttitor enim a egestas. Suspendisse potenti</p>
                      </div>
                    </div>
                 </div>
              <div class="col-md-4">
                  <div class="block services-block">
-                    <div class="icon">
-                        <i class="fab fa-html5 fa-primary"></i>      
+                    <div class="block-icon text-center">
+                        <i class="fab fa-html5 fa-primary fa-primary-border"></i>      
                     </div> 
                     <div class="icon-content">                
-                       <h3>Lorem Ipsum</h3>
+                       <h4>Lorem Ipsum</h4>
                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra varius maximus. Cras condimentum porttitor enim a egestas. Suspendisse potenti</p>
                     </div>
                 </div>
              </div>
              <div class="col-md-4">
                  <div class="block services-block">
-                     <div class="icon">
-                        <i class="fab fa-html5 fa-primary"></i>      
+                     <div class="block-icon text-center">
+                        <i class="fab fa-html5 fa-primary fa-primary-border"></i>      
                      </div> 
                      <div class="icon-content">                
                         <h3>Lorem Ipsum</h3>
@@ -201,33 +197,33 @@
           <div class="row">
              <div class="col-md-4">
                 <div class="block services-block">
-                   <div class="icon">
-                      <i class="fab fa-html5 fa-primary"></i>      
+                   <div class="block-icon text-center">
+                      <i class="fab fa-html5 fa-primary fa-primary-border"></i>      
                    </div> 
                    <div class="icon-content">                
-                        <h3>Lorem Ipsum</h3>
+                        <h4>Lorem Ipsum</h4>
                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra varius maximus. Cras condimentum porttitor enim a egestas. Suspendisse potenti</p>
                    </div>
                 </div>
              </div>
              <div class="col-md-4">
                  <div class="block services-block">
-                    <div class="icon">
-                       <i class="fab fa-html5 fa-primary"></i>      
+                    <div class="block-icon text-center">
+                       <i class="fab fa-html5 fa-primary fa-primary-border"></i>      
                     </div> 
                     <div class="icon-content">                
-                       <h3>Lorem Ipsum</h3>
+                       <h4>Lorem Ipsum</h4>
                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra varius maximus. Cras condimentum porttitor enim a egestas. Suspendisse potenti</p>
                     </div>
                  </div>
              </div>
              <div class="col-md-4">
                 <div class="block services-block">
-                   <div class="icon">
-                      <i class="fab fa-html5 fa-primary"></i>      
+                   <div class="block-icon text-center">
+                      <i class="fab fa-html5 fa-primary fa-primary-border"></i>      
                    </div> 
                    <div class="icon-content">                
-                      <h3>Lorem Ipsum</h3>
+                      <h4>Lorem Ipsum</h4>
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra varius maximus. Cras condimentum porttitor enim a egestas. Suspendisse potenti</p>
                    </div>
                 </div>
@@ -236,44 +232,52 @@
        </div>
     </section>
 <!-- testimonials section -->
-   <section class="section-tagline">
+   <section class="section-tagline mb-3 bg-secondary">
         <div class="container">
           <div class="row">
-             <div class="col-md-12">
+             <div class="col-md-12 quotations">
                <h2>Building technology to shape our future!</h2>
              </div>
           </div>
         </div>
      </section>
 <!-- Services section -->
-   <section class="section-services">
+   <section class="section-services bg-primary">
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
                     <div class="block services-block">
-                        <i class="fab fa-html5 fa-primary"></i>                       
-                        <h3>Lorem Ipsum</h3>
+		        <div class="block-icon text-center">
+                           <i class="fab fa-html5 fa-primary fa-primary-border"></i>
+			</div>
+                        <h4>Lorem Ipsum</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra varius maximus. Cras condimentum porttitor enim a egestas. Suspendisse potenti</p>
                    </div>
                 </div>
                 <div class="col-md-3">
                    <div class="block services-block">
-                        <i class="fas fa-chart-pie fa-primary"></i>                        
-                        <h3>Aenean Pharetra</h3>
+		      <div class="block-icon text-center">
+                        <i class="fas fa-chart-pie fa-primary fa-primary-border"></i>
+		      </div>
+                        <h4>Aenean Pharetra</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra varius maximus. Cras condimentum porttitor enim a egestas. Suspendisse potenti</p>
                    </div>
                 </div>
                 <div class="col-md-3">
                     <div class="block services-block">
-                        <i class="fas fa-unlock-alt fa-primary"></i>
-                        <h3>Cras condimentum</h3>
+	                <div class="block-icon text-center">
+                           <i class="fas fa-unlock-alt fa-primary fa-primary-border"></i>
+			</div>
+                        <h4>Cras condimentum</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra varius maximus. Cras condimentum porttitor enim a egestas. Suspendisse potenti</p>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="block services-block">
-                        <i class="fa fa-question-circle fa-primary"></i>
-                        <h3>Suspendisse potenti</h3>
+		       <div class="block-icon text-center">
+                          <i class="fa fa-question-circle fa-primary fa-primary-border"></i>
+		       </div>
+                        <h4>Suspendisse potenti</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra varius maximus. Cras condimentum porttitor enim a egestas. Suspendisse potenti</p>
                     </div>
                 </div>
