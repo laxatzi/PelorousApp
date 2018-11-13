@@ -291,6 +291,14 @@ ul.list {
 			
 			}
 
+.comment-list li .blockquote {
+			    font-size: 1rem;
+			    
+			}
+			.comment-list li img {
+			    padding: 10px;
+			}
+
 /*MEDIA QUERIES */
 
 @media screen and (min-width: 556px){
