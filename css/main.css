@@ -280,6 +280,17 @@ ul.list {
 			}
 .padding-top-removed { padding-top: 30px }
 .padding-top { padding-top: 30px; }
+
+* blog */
+		.post-meta i{
+	   margin-left: 10px;
+		   color: #00aff0;
+		}
+			.post-meta {
+			    border-bottom: 1px solid #ccc;
+			
+			}
+
 /*MEDIA QUERIES */
 
 @media screen and (min-width: 556px){
