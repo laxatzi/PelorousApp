@@ -361,17 +361,7 @@ ul.list {
     .list span {
         font-size: 1.15rem;  /* new */
     }
-   .fa-primary {
-       font-size: 1.85rem;
-       color: #00aff0;
-       padding: .65rem .85rem;
-       margin-bottom: .65rem;
-   }
-
-   .fa-primary-border {
-    border-radius: 5px;
-    border: 1px solid #00aff0;
-   }
+   
    .img-removed {
        display: block;
    }
