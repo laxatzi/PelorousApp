@@ -299,6 +299,13 @@ ul.list {
 			    padding: 10px;
 			}
 
+	.readMore:hover {
+			    color: #666;
+			}
+			.alt-hover:hover {
+			    color: #666;
+			}
+
 /*MEDIA QUERIES */
 
 @media screen and (min-width: 556px){
