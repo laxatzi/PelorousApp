@@ -179,6 +179,17 @@
 
 /* MODULES */
 
+.heading-primary {
+    color: #00aff0;
+    border-bottom: 2px solid #00AFF0;
+    margin-bottom: 25px;
+}
+
+.nav-tabs .nav-item  a.active {
+    background-color: #00AFF0;
+    color: #fff;
+}
+
 .block-distinct {
     background-color: #2B5464;
     color: #fff;
