@@ -271,8 +271,15 @@ ul.list {
 }
 .fa-check {
     margin-right: 10px;
+	font-size: 1rem;
+        color: #00aff0;
+       margin: .845rem auto;
 }
-
+.section-features .fa-check {
+			    color: #fff;
+			}
+.padding-top-removed { padding-top: 30px }
+.padding-top { padding-top: 30px; }
 /*MEDIA QUERIES */
 
 @media screen and (min-width: 556px){
