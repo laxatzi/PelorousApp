@@ -31,16 +31,13 @@
       color: #99DFF9;
    }
 
-   .navbar-toggler-icon {
-			    color: #fff;
-			}
+   .navbar-toggler-icon { color: #fff; }
 
 /* JUMBOTRON SECTION */
 
 .section-jumbo {
-  padding: 0;
-  background-color: #E4EEF2;
-
+    padding: 0;
+    background-color: #E4EEF2;
 }
 .jumbotron {
     background-image: url("../img/webDevelopmentWeb.jpg");
@@ -88,20 +85,14 @@
     max-height: 300px;
 }
 /* Section-responsive */
-
- .section-responsive {
+.section-responsive {
      background-color:#E9ECEF;
  }
-
-
- /* section cta */
+/* section cta */
  .section-cta {
      background-color: #00AFF0;
      color: #fff;
  }
-
- 
-
 /* About main  */
 
    .section-about--main  {
@@ -113,24 +104,27 @@
    }
 
 /* QUOTATIONS  */
+
   .quotations {
       font-size: 2rem;
       font-style: oblique;
       color: #99DFF9;
   }
+
   /* Login */
 
 .section-login {
     background-image: url("../img/webDevelopment.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-        background-position: center;
-        margin: 0;
-        width: 100%;
-        z-index: 10;
-        position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    width: 100%;
+    z-index: 10;
+    position: relative;
     }
+
     .section-login::after {
         position:absolute;
         z-index:-1;
@@ -141,18 +135,16 @@
         content: "";
         background: rgba(27, 27, 27, 0.8);
       }
+
 .login-div {
     padding: 2rem 1rem;
     color: #fff;   
-}
+ }
 .login-col {
     padding: 2rem 1rem;
-}
-
+ }
 /* contact - map */
-   .section-map {
-       padding: 0;
-    }
+   .section-map { padding: 0; }
 
 /* footer main */
   .footer-main {
@@ -174,32 +166,29 @@
 .nav-item .nav-link:hover {
     color: #666;
 }
-
-
 /* MODULES */
 
 .heading-primary {
     color: #00aff0;
     border-bottom: 2px solid #00AFF0;
     margin-bottom: 25px;
-}
+  }
 
 .nav-tabs .nav-item  a.active {
     background-color: #00AFF0;
     color: #fff;
-}
+  }
 .services-block { background-color: #e9ecef; }
 
 .block-distinct {
     background-color: #2B5464;
     color: #fff;
-}
+ }
 
 .block-primary {
     background-color: #00aff0;
     color: #fff;
-}
-
+ }
 .block-secondary {
      background-color: #E9ECEF;
      color: #000;
@@ -218,26 +207,25 @@
 .padding-extended {
     padding: 7rem 0;
 }
-	.padding-extended-half {
-			    padding: 3.5rem 0;
-			}
+.padding-extended-half { padding: 3.5rem 0; }
 .btn-contrast {
     background-color: #F04100;
     color: #fff;
 }
 
-	.btn-contrast:hover,
-	.btn-contrast:focus {
-            background-color: #F36632;
-	    color: #fff;
-	    border: 2px solid #F04100;
-			}
+.btn-contrast:hover,
+.btn-contrast:focus {
+    background-color: #F36632;
+    color: #fff;
+    border: 2px solid #F04100;
+   }
 			
-		.btn-default:hover,
-			.btn-default:focus {
-			    background: #D1D4D7;
-			    border: 2px solid #2B5464;
-			}
+.btn-default:hover,
+.btn-default:focus {
+     background: #D1D4D7;
+     border: 2px solid #2B5464;
+   }
+
 ul.list { 
     padding: 0; 
     margin-top: 25px;
@@ -250,8 +238,9 @@ ul.list {
     border-bottom: 0;
 }
 .list span {
-    font-size: 1rem;  /* new */
+    font-size: 1rem; 
 }
+
 .img-removed { display: none; }
 
 .fa-primary {
@@ -259,7 +248,7 @@ ul.list {
     color: #00aff0;
     padding: .635rem .845rem;
     margin-bottom: .65rem;
-}
+ }
 
 .fa-primary-border {
     border-radius: 5px;
@@ -267,67 +256,54 @@ ul.list {
 }
 .fa-check {
     margin-right: 5px;
-	font-size: 1rem;
-        color: #00aff0;
-       margin: .845rem auto;
+    font-size: 1rem;
+    color: #00aff0;
+    margin: .845rem auto;
 }
-.section-features .fa-check {
-			    color: #fff;
-			}
+.section-features .fa-check { color: #fff; }
 .padding-top-removed { padding-top: 30px }
 .padding-top { padding-top: 30px; }
 
-* blog */
-		.post-meta i{
-	   margin-left: 10px;
-		   color: #00aff0;
-		}
-			.post-meta {
-			    border-bottom: 1px solid #ccc;
-			
-			}
+/* blog */
+.post-meta i {
+    margin-left: 10px;
+    color: #00aff0;
+  }
+.post-meta { border-bottom: 1px solid #ccc; }
 
-.comment-list li .blockquote {
-			    font-size: 1rem;
-			    
-			}
-			.comment-list li img {
-			    padding: 10px;
-			}
-
-	.readMore:hover {
-			    color: #666;
-			}
-			.alt-hover:hover {
-			    color: #666;
-			}
+.comment-list li .blockquote { font-size: 1rem; }
+.comment-list li img { padding: 10px; }
+.readMore:hover { color: #666; }
+.alt-hover:hover { color: #666; }
 
 /* section tagline */
-			.section-tagline {
-			    background-image: url("../img/webDevelopmentWeb.jpg");
-			    background-repeat: no-repeat;
-			    background-size: cover;
-			    background-attachment: fixed;
-			    background-position: center;
-			    margin: 0;
-			    height: 100hv;
-			    width: 100%;
-			    position: relative;
-			    z-index: 1;
-			}
-			.section-tagline::after {
-		    position:absolute;
-			    z-index:-1;
-			    height: 100%;
-			    width: 100%;
-			    top: 0;
-			    left: 0;
-	         	    content: "";
-			    background: rgba(27, 27, 27, 0.8);
-			  }
+.section-tagline {
+    background-image: url("../img/webDevelopmentWeb.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    height: 100hv;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+   }
+   .section-tagline::after {
+       position:absolute;
+       z-index:-1;
+       height: 100%;
+       width: 100%;	    
+       top: 0;
+       left: 0;
+       content: "";
+       background: rgba(27, 27, 27, 0.8);
+   }
+
 /*MEDIA QUERIES */
 
 @media screen and (min-width: 556px){
+	
     .navbar .navbar-nav a {
         font-size: 1rem;
         padding: 0 1rem;
@@ -339,6 +315,7 @@ ul.list {
 }
 
 @media screen and (min-width: 695px) {
+	
     .navbar .navbar-nav a  {
         font-size: 1.15rem;
         padding: 0 1.25 rem;
@@ -355,10 +332,9 @@ ul.list {
         border-bottom: 0;
     }
     .list span {
-        font-size: 1.15rem;  /* new */
+        font-size: 1.15rem;  
     }
-   
-   .img-removed {
+    .img-removed {
        display: block;
    }
 }
