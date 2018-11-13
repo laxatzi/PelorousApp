@@ -63,7 +63,7 @@
     top: 0;
     left: 0;
     content: "";
-    background: rgba(27, 27, 27, 0.8);
+    background: rgba(27, 27, 27, 0.5);
   }
 
 .section-jumbo h1{
@@ -72,7 +72,6 @@
 .section-jumbo p{
     color:#fff;
 }
-
 
 /* search */ 
 
@@ -83,6 +82,100 @@
        background-color: #00aff0;
        color: #fff;
     }
+
+/* carousel */
+.carousel-inner .carousel-item img {
+    border: 2px double #ccc;
+    max-height: 300px;
+}
+/* Section-responsive */
+
+ .section-responsive {
+     background-color:#E9ECEF;
+ }
+
+
+ /* section cta */
+ .section-cta {
+     background-color: #00AFF0;
+     color: #fff;
+ }
+
+ 
+
+/* About main  */
+
+   .section-about--main  {
+       background-color: #E9ECEF;
+   }
+  
+   .btn-link:hover {
+       color: #666;
+   }
+
+/* QUOTATIONS  */
+  .quotations {
+      font-size: 2rem;
+      font-style: oblique;
+      color: #99DFF9;
+  }
+  /* Login */
+
+.section-login {
+    background-image: url("../img/webDevelopment.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        margin: 0;
+        width: 100%;
+        z-index: 10;
+        position: relative;
+    }
+    .section-login::after {
+        position:absolute;
+        z-index:-1;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        content: "";
+        background: rgba(27, 27, 27, 0.8);
+      }
+.login-div {
+    padding: 2rem 1rem;
+    color: #fff;   
+}
+.login-col {
+    padding: 2rem 1rem;
+}
+
+/* contact - map */
+   .section-map {
+       padding: 0;
+    }
+
+/* footer main */
+  .footer-main {
+     background-color: #2B5464;
+     color: #fff;
+  }
+  .footer-main a {
+      color: #fff;
+      font-size: .85rem;
+  }
+  .footer-main a:hover,
+  .footer-main a:focus {
+      color: #ccc;
+  }
+  .footer-main li {
+      line-height: 1.4rem;
+  }
+
+.nav-item .nav-link:hover {
+    color: #666;
+}
+
 
 /* MODULES */
 
