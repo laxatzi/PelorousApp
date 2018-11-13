@@ -35,7 +35,6 @@
 			    color: #fff;
 			}
 
-
 /* JUMBOTRON SECTION */
 
 .section-jumbo {
@@ -189,6 +188,7 @@
     background-color: #00AFF0;
     color: #fff;
 }
+.services-block { background-color: #e9ecef; }
 
 .block-distinct {
     background-color: #2B5464;
@@ -222,12 +222,26 @@
 .padding-extended {
     padding: 7rem 0;
 }
-
+	.padding-extended-half {
+			    padding: 3.5rem 0;
+			}
 .btn-contrast {
     background-color: #F04100;
     color: #fff;
 }
 
+	.btn-contrast:hover,
+	.btn-contrast:focus {
+            background-color: #F36632;
+	    color: #fff;
+	    border: 2px solid #F04100;
+			}
+			
+		.btn-default:hover,
+			.btn-default:focus {
+			    background: #D1D4D7;
+			    border: 2px solid #2B5464;
+			}
 .list li {
     line-height: 1rem;
     border-bottom: 1px dotted #ccc;
