@@ -183,23 +183,31 @@
     background-color: #2B5464;
     color: #fff;
 }
+
 .block-primary {
     background-color: #00aff0;
     color: #fff;
 }
+
+.block-secondary {
+     background-color: #E9ECEF;
+     color: #000;
+    }
+
 .block {
     padding: .85rem;
     border: 1px solid #DFDFDF;
     margin-bottom: 0.85rem;
 }
 
+.services-block  {
+    background-color: #E9ECEF;
+}
+
 .features-block i {
     font-size: 80%;
 }
-.services-block  {
-    background-color: #E9ECEF;
-    text-align: center;
-}
+
 .padding-extended {
     padding: 7rem 0;
 }
