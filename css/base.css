@@ -50,6 +50,15 @@ section {
     padding: 3rem 10px;
 }
 
+.bg-primary {
+    background-color: #00aff0;
+}
+.bg-secondary {
+    background-color: rgba(233,236,239,1);
+}
+.bg-light {
+    background-color: #E9ECEF;
+}
 .extended-margin {
     margin-top: 60px;
     margin-bottom: 150px;
