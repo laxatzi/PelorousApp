@@ -42,7 +42,13 @@ section {
     margin: 0;
 }
 
+.color-primary {
+    color: #00AFF0;
+}
 
+.color-secondary {
+    color: #E9ECEF;
+}
 .padding-extended {
     padding: 7rem 0;
 }
